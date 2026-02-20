@@ -28,16 +28,13 @@ health-rag-chatbot/
 ├── pdf_loader/             # Folder containing PDF files
 │     └── ilovepdf_merged.pdf
 
-⚡ How to Run
-Clone the repository:
-git clone https://github.com/yourusername/health-rag-chatbot.git
+How to run
 cd health-rag-chatbot
 Install dependencies:
 pip install -r requirements.txt
 Create a .env file and add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key_here
 Run the Streamlit app:
-
 streamlit run app.py
 Open the link provided by Streamlit in your browser.
 
